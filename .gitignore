@@ -5,15 +5,6 @@
 node_modules
 package.json
 
-## Jekyll stuff
-/_site/
-_site/
-.sass-cache/
-.jekyll-metadata
-.jekyll
-Gemfile
-Gemfile.lock
-
 ### Jekyll ###
 _site
 .sass-cache
