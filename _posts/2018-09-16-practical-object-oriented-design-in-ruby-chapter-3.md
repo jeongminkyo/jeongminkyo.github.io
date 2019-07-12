@@ -1,3 +1,8 @@
+---
+comments: true
+tag: ruby
+---
+
 ### 3장 의존성 관리하기
 
 ------
