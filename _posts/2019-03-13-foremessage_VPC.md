@@ -3,9 +3,9 @@ comments: true
 tag: aws
 ---
 
-##### foremessage VPC 구축기
 
-----------
+
+## foremessage VPC 구축기
 
 친구들과 함께 개발에서부터 앱스토어 등록까지 실제 서비스를 배포해보고, 운영까지 목표로 앱을 개발하기 시작했다.
 
@@ -21,7 +21,7 @@ VPC를 구축할 때,  https://bluese05.tistory.com/45 해당 블로그를 많�
 
 
 
-##### VPC란
+### VPC란
 
  VPC(Virtual Private Cloud) 서비스는 AWS 사용자가 직접 가상 네트워크 환경을 구성하는 서비스이다. 이 서비스를 이용하면 Public / Private network 환경을 사용자가 원하는대로 디자인하고 구축할 수 있게 되며, 다양한 부가 기능을 통해 VPC 환경 내 네트워크 흐름을 제어할 수 있다. 
 
@@ -39,7 +39,7 @@ VPC를 생성할때는 반드시 Region을 지정해야 한다. 즉, VPC는 반�
 
 
 
-##### Subnet 이란
+### Subnet 이란
 
 VPC에는 Subnet 이라는 개념이 있는데, 흔히 알고 있는 대로 IP block을 구분짓는 그 Subnet과 동일하다. 
 
@@ -67,13 +67,13 @@ FM_private_subnet_2c : 10.30.102.0/24
 
 
 
-##### public / private network 
+### public / private network 
 
 public subnet 과 private subnet도 각각의 AZ에 분산해서 위치했고,  api 서버, jenkins 등 외부에서 접근이 가능해야 하는 서버들은 public subnet에,  RDS를 이용한 DB는 pirvate에 위치하여 외부에서 접근을 방지했다.
 
 
 
-##### Internet Gateway
+### Internet Gateway
 
 VPC 를 생성하면 모든 network가 private IP로 설정되어 있기 때문에 기본적으로 외부 통신과 단절된 상태로 생성된다.이때 외부로 통신하기 위해 Internet Gateway를 이용해 통신하도록 한다. 
 
@@ -89,7 +89,7 @@ private subnet도 routing table 생성후, 맵핑해준다.
 
 
 
-##### Security Group
+### Security Group
 
 Security Group은 인스턴스에 대한 inbound 와 outbound 트래픽을 제어하는 방화벽 역할을 한다. 
 
