@@ -1,6 +1,6 @@
 ---
 comments: true
-tags: ruby, design-pattern, 객체지향
+tags: ruby design-pattern 객체지향
 layout: post
 title: 루비로 배우는 객체지향 디자인 1장
 ---
