@@ -1,6 +1,8 @@
 ---
 comments: true
-tag: aws
+tags: rails foremessage aws
+layout: post
+title: foremessage Rails server 세팅
 ---
 
 ##### foremessage Rails server Setting

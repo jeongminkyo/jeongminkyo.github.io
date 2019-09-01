@@ -1,6 +1,8 @@
 ---
 comments: true
-tag: aws
+tags: vpc foremessage aws
+layout: post
+title: foremessage VPC 구축기
 ---
 
 

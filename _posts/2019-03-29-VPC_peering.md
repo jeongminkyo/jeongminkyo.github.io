@@ -1,6 +1,8 @@
 ---
 comments: true
-tag: vpc
+tags: vpc aws foremessage
+layout: post
+title: VPC peering 구성
 ---
 
 

@@ -1,6 +1,8 @@
 ---
 comments: true
-tag: https
+tags: https aws foremessage
+layout: post
+title: CERTBOT을 이용한 https 적용하기
 ---
 
 

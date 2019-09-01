@@ -1,6 +1,8 @@
 ---
 comments: true
-tag: docker
+tags: docker
+layout: post
+title: Docker로 Wordpress 사용하기
 ---
 
 

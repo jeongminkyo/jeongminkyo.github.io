@@ -1,6 +1,8 @@
 ---
 comments: true
-tag: Jenkins
+tags: jenkins foremessage aws
+layout: post
+title: Jenkins CI CD 구축하기
 ---
 
 
