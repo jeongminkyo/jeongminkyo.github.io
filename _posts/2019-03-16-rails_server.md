@@ -36,10 +36,13 @@ ruby version 관리는 rbenv를 이용하여 관리한다.
 sudo apt-get update
 
 # dependencies required for rbenv and Ruby 
-sudo apt-get install autoconf bison build-essential libssl-dev libyaml-dev libreadline6-dev zlib1g-dev libncurses5-dev libffi-dev libgdbm3 libgdbm-dev
+sudo apt-get install autoconf bison build-essential libssl-dev libyaml-dev libreadline6-dev zlib1g-dev libncurses5-dev libffi-dev libgdbm3 libgdbm-dev libmysqlclient-dev nodejs
 
 # rbenv install
 git clone https://github.com/rbenv/rbenv.git ~/.rbenv
+
+# rbenv ruby-build install
+git clone https://github.com/rbenv/ruby-build.git ~/.rbenv/plugins/ruby-build
 
 echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bashrc
 echo 'eval "$(rbenv init -)"' >> ~/.bashrc
@@ -70,6 +73,9 @@ ruby 2.5.0을 설치하고, global로 적용한다.
 ```shell
 # bundler install
 gem install bundler
+
+# ruby 2.2.4를 사용할 경우, bundler version을 명시해줘야된다.
+gem install bundler -v 1.17.3
 ```
 
 
@@ -103,7 +109,7 @@ sudo apt-get install -y nginx-extras passenger
  '#' 제거
 
 ```
-Copyinclude /etc/nginx/passenger.conf;
+include /etc/nginx/passenger.conf;
 ```
 
 
