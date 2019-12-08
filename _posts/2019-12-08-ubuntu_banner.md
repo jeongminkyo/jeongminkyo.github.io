@@ -1,6 +1,6 @@
 ---
 comments: true
-tags: server, ubuntu
+tags: server ubuntu
 layout: post
 title: ubuntu banner 추가
 
